@@ -4,15 +4,15 @@ Used Selenium web driver with Python to scrape the Madden 21 Ratings database lo
 Took full weekly ratings with updates (from Launch - Conference Championship games) of top ~800 players. 
 
 Web Scrapers:
-  eaScraper.py : Scrapes the EA Sports website for Madden player ratings using Selenium with Python (ref: https://www.ea.com/games/madden-nfl/madden-nfl-21/player-ratings)
-  pfrScraper.py: Scrapes pro-football-reference player stats using BeautifulSoup python library (ref: https://www.pro-football-reference.com/)
+  - eaScraper.py : Scrapes the EA Sports website for Madden player ratings using Selenium with Python (ref: https://www.ea.com/games/madden-nfl/madden-nfl-21/player-ratings)
+  - pfrScraper.py: Scrapes pro-football-reference player stats using BeautifulSoup python library (ref: https://www.pro-football-reference.com/)
 
 Data Sets:
-  allRatings.csv : ratings for the top ~800 players in madden (40 pages)
-  playerStats2021/qb_stats.csv: Passing statistics from the 2021 season
-  playerStats2021/rb_stats.csv: Rushing statistics from the 2021 season
-  playerStats2021/wr_stats.csv: Receiving statistics from the 2021 season
-  playerStats2021/def_stats.csv: Defensive statistics from the 2021 season
+  - allRatings.csv : ratings for the top ~800 players in madden (40 pages)
+  - playerStats2021/qb_stats.csv: Passing statistics from the 2021 season
+  - playerStats2021/rb_stats.csv: Rushing statistics from the 2021 season
+  - playerStats2021/wr_stats.csv: Receiving statistics from the 2021 season
+  - playerStats2021/def_stats.csv: Defensive statistics from the 2021 season
 
 Data Dictionaries:
   data_dict.txt : data dictionary for allRatings.csv data table
